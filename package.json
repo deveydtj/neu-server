@@ -1,0 +1,13 @@
+{
+  "name": "neu-server",
+  "version": "1.0.0",
+  "description": "Server for the Neu game",
+  "main": "src/index.js", // Include the relative path to index.js
+  "scripts": {
+    "start": "node src/index.js" // Ensure the start script points to the correct location
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "ws": "^8.13.0"
+  }
+}
